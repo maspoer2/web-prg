@@ -100,14 +100,14 @@ function performCalculation() {
         result = parseInt(calculator.firstNumber) - parseInt(calculator.displayNumber);
     }
 
-   calculator.displayNumber = result;
+   // calculator.displayNumber = result;
 
 
 // tekan kene !
 
     const history = {
         firstNumber: calculator.firstNumber,
-        secondNumber: calculator.secondNumber,
+        secondNumber: calculator.displayNumber,
         operator: calculator.operator,
         result: result
     }
