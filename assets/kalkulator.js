@@ -76,6 +76,7 @@ function handleOperator(operator) {
         calculator.operator = operator;
         calculator.isWaitForSecondNumber = true;
         calculator.firstNumber = calculator.displayNumber;
+        calculator.secondNumber = calculator.displayNumber;
 
         // mengatur ulang nilai display number supaya tombol selanjutnya dimulai dari angka pertama lagi
         calculator.displayNumber = '0';
